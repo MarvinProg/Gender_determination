@@ -1,24 +1,27 @@
-# README
+# Описаине
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Сервис по определению пола пользователя
 
-Things you may want to cover:
+# Установка
 
-* Ruby version
+git clone https://github.com/MarvinProg/Gender_determination
 
-* System dependencies
+Перед запуском выполнить
 
-* Configuration
+bundle install
 
-* Database creation
+bundle exec rails webpacker:install
 
-* Database initialization
+yarn add bootstrap@5 jquery popper.js
 
-* How to run the test suite
+bundle exec rails db:migrate
 
-* Services (job queues, cache servers, search engines, etc.)
+Использовались rspec, devise, bootstrap.
 
-* Deployment instructions
+# Версия
 
-* ...
+ruby >= 2.7.3
+
+# Год 
+
+2021
